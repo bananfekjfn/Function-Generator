@@ -1,6 +1,6 @@
 # Function-Generator
 以 C 語言實作了一個 音訊訊號產生與分析工具，能依照使用者輸入的參數產生不同波形的音訊檔 (WAV 格式)，並同時計算該訊號的 SQNR (Signal-to-Quantization-Noise Ratio)，用來評估不同位元深度下的訊號品質。  
-**學習心得:**
+**學習心得:**  
 1.透過本專案了解 PCM 音訊編碼的基礎（WAV 檔案結構、取樣率、位元深度）。  
 2.熟悉各種波形的數學生成方式（sin、square、triangle、sawtooth）。  
 3.實際計算 量化誤差與 SQNR，驗證位元深度對音訊品質的影響。  
